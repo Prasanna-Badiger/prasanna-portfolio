@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prasanna Badiger - Portfolio</title>
+    <meta name="description" content="Portfolio of Prasanna Badiger, showcasing work experience, projects, and skills.">
+    
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .header__logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .header__logo-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .header__logo-sub {
+            margin-left: 0.5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .header__links {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .header__link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .header__link:hover {
+            color: #ffd700;
+        }
+
+        /* Sections */
+        section {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .heading-primary {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #333;
+            text-align: center;
+        }
+
+        .experience__item, .projects__item, .education__item, .skills__skill {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+
+        .experience__item:hover, .projects__item:hover, .education__item:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+        }
+
+        .skills__skill {
+            flex-direction: column;
+            background: #e0e0e0;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            border-radius: 20px;
+        }
+
+        /* Footer */
+        .main-footer {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-footer__short-desc {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+
+        .main-footer__lower {
+            font-size: 0.875rem;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header__links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .header__link {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__logo-container">
+                <img src="E:\fare\grds\8de0e266c296417ba9b9df2aa37adcfb.jpg" alt="Prasanna Badiger Logo Image" class="header__logo-img">
+                <span class="header__logo-sub">Prasanna Badiger</span>
+            </div>
+            <nav>
+                <ul class="header__links">
+                    <li><a href="#contact" class="header__link">Contact</a></li>
+                    <li><a href="#experience" class="header__link">Experience</a></li>
+                    <li><a href="#projects" class="header__link">Projects</a></li>
+                    <li><a href="#skills" class="header__link">Skills</a></li>
+                    <li><a href="#education" class="header__link">Education</a></li>
+                    <li><a href="#certificates" class="header__link">Certificates</a></li>
+                    <li><a href="#publications" class="header__link">Publications</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact">
+        <h1 class="heading-primary">Contact Information</h1>
+        <p><strong>Email:</strong> <a href="mailto:prasannabindi123@gmail.com">prasannabindi123@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/prasanna-badiger-894631212" target="_blank">LinkedIn Profile</a></p>
+        <p><strong>Location:</strong> Bengaluru, Karnataka, 560098, India</p>
+        <p><strong>Phone:</strong> 9113078197</p>
+        <p><strong>About Me:</strong> As a motivated job seeker eager to embark on an entry-level role, I thrive in collaborative environments where teamwork is key to achieving goals. I bring a strong commitment to learning and improvement, coupled with meticulous attention to detail. With a reputation for reliability, I am enthusiastic about embracing new challenges and contributing to the success of the team.</p>
+    </section>
+
+    <section id="experience">
+        <h1 class="heading-primary">Work Experience</h1>
+        <div class="experience__item">
+            <h2>Machine Learning Intern</h2>
+            <p><strong>Company:</strong> RNSIT | Bengaluru</p>
+            <p><strong>Duration:</strong> Aug 2023 - Dec 2023</p>
+            <p>Enhanced the performance and accuracy of various machine learning models using Python, TensorFlow, Keras, and Scikit-learn.</p>
+        </div>
+        <div class="experience__item">
+            <h2>Front-End Intern</h2>
+            <p><strong>Company:</strong> Procture | Bengaluru</p>
+            <p><strong>Duration:</strong> Jul 2023 - Oct 2023</p>
+            <p>Enhanced the visual appeal and functionality of digital platforms using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="experience__item">
+            <h2>Web Developer Intern</h2>
+            <p><strong>Company:</strong> IFORTIS | Bengaluru</p>
+            <p><strong>Duration:</strong> May 2023</p>
+            <p>Designed and developed innovative web solutions, contributing to cutting-edge websites and web applications.</p>
+        </div>
+        <div class="experience__item">
+            <h2>Community Manager</h2>
+            <p><strong>Company:</strong> NBLIK | Bengaluru</p>
+            <p><strong>Duration:</strong> Feb 2023 - Apr 2023</p>
+            <p>Engaged with the online community and enhanced brand awareness through social media management and content creation.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="heading-primary">Projects</h1>
+        <div class="projects__item">
+            <h2>Online Retail Application Management Database</h2>
+            <p>Created a database system for managing online retail applications, including functionalities for inventory management, customer orders, and sales tracking.</p>
+        </div>
+        <div class="projects__item">
+            <h2>ATM Simulator in Java</h2>
+            <p>Built an ATM simulator in Java, implementing features such as account balance enquiry, cash withdrawals, deposits, and PIN validation.</p>
+        </div>
+        <div class="projects__item">
+            <h2>Hospital Management System Using Python</h2>
+            <p>Developed a hospital management system in Python to handle patient records, appointments, and medical billing, streamlining hospital operations.</p>
+        </div>
+        <div class="projects__item">
+            <h2>Multiple Disease Prediction Using AIML</h2>
+            <p>Designed an AIML application for predicting multiple diseases based on symptoms input by the user, aiding in early diagnosis and treatment planning.</p>
+        </div>
+        <div class="projects__item">
+            <h2>Field Smart</h2>
+            <p>Created an application using AIML to predict diseases from symptoms entered by users, aiding in early diagnosis and planning treatments.</p>
+        </div>
+        <div class="projects__item">
+            <h2>Credit Card Fraud Detection</h2>
+            <p>Developed an application to identify and prevent credit card fraud using machine learning techniques like logistic regression and neural networks.</p>
+        </div>
+    </section>
+
+    <!-- <section id="skills">
+        <h1 class="heading-primary">Core Skills</h1>
+        <div class="skills__list">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React JS</div>
+            <div class="skills__skill">Node JS</div>
+            <div class="skills__skill">Express JS</div>
+            <div class="skills__skill">PHP</div>
+            <div class="skills__skill">C</div>
+            <div class="skills__skill">C++</div>
+            <div class="skills__skill">C#</div>
+            <div class="skills__skill">Java</div>
+            <div class="skills__skill">Python</div>
+            <div class="skills__skill">Go</div>
+            <div class="skills__skill">MySQL</div>
+            <div class="skills__skill">MongoDB</div>
+            <div class="skills__skill">PowerBI</div>
+            <div class="skills__skill">Tableau</div>
+            <div class="skills__skill">PyTorch</div>
+            <div class="skills__skill">Spark</div>
+            <div class="skills__skill">Figma</div>
+            <div class="skills__skill">InVision</div>
+            <div class="skills__skill">Sketch</div>
+            <div class="skills__skill">WebFlow</div>
+            <div class="skills__skill">Data Structures and Algorithms</div>
+        </div>
+    </section> -->
+     <section id="skills" class="skills">
+        <div class="main-container">
+            <h1 class="heading-primary">Core Skills</h1>
+            <div class="skills__list">
+                <div class="skills__skill">Web Development: HTML, CSS, JS, React JS, Node JS, Express JS, PHP,Spring Boot</div>
+                <div class="skills__skill">Programming Languages: C, C++, C#, Java, Python, Go</div>
+                <div class="skills__skill">Database: MySQL, MongoDB,PostgreSql</div>
+                <div class="skills__skill">Data Analytics: PowerBI, Tableau, PyTorch, Spark</div>
+                <div class="skills__skill">DataScience</div>
+                <div class="skills__skill">UI/UX: Figma, InVision, Sketch, WebFlow,AdobeXD</div>
+                <div class="skills__skill">Data Structures and Algorithms</div>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h1 class="heading-primary">Education</h1>
+        <div class="education__item">
+            <h2>RNSIT</h2>
+            <p><strong>Degree:</strong> Bachelor of Engineering in Computer Science and Engineering</p>
+            <p><strong>CGPA:</strong> 9.01</p>
+            <p><strong>Graduation Year:</strong> May 2024</p>
+        </div>
+        <div class="education__item">
+            <h2>Gurubasava PU College</h2>
+            <p><strong>Percentage:</strong> 88.86%</p>
+            <p><strong>Graduation Year:</strong> Mar 2020</p>
+        </div>
+        <div class="education__item">
+            <h2>Shantiniketan Primary And High School</h2>
+            <p><strong>Percentage:</strong> 88.16%</p>
+            <p><strong>Graduation Year:</strong> Mar 2018</p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h1 class="heading-primary">Certificates</h1>
+        <ul>
+            <li>Certified Cloud Security Professional (CCSP) by Simplilearn</li>
+            <li>Application Security Vulnerability Assessments by SSC NASSCOM</li>
+            <li>Introduction to Cloud, Data Science, Big Data by IBM</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h1 class="heading-primary">Publications</h1>
+        <ul>
+            <li>Research Paper on Blue Brain Technology</li>
+            <li>Research Paper on FieldSmart</li>
+        </ul>
+    </section>
+
+    <footer class="main-footer">
+        <div class="main-footer__upper">
+            <h4 class="heading heading-sm">Prasanna Badiger</h4>
+            <!-- <p class="main-footer__short-desc">A motivated job seeker with strong commitment to learning and improvement, ready to embrace new challenges and contribute to team success.</p> -->
+        </div>
+        <div class="main-footer__lower">
+            &copy; 2024 Prasanna Badiger. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
